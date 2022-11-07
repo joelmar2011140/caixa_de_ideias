@@ -1,0 +1,23 @@
+# Fazendo login como admin
+POST http://localhost:3535/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "pro-it_masterAdmin@gmail.com",
+  "palavraPasse": "@proIt"
+}
+
+
+### Perfil do admin
+GET https://caixaideia.herokuapp.com/api/utilizador/perfil
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicGFwZWlzIjpbeyJhdXRob3JpdHkiOiJST0xFX01BU1RFUl9BRE1JTiJ9XSwiaWF0IjoxNjU0NzExODQ2LCJleHAiOjE2NjI2MDEyNDZ9.YICnBNQBH6W7MNje12tbqnqFZdS02pJqxYkNtpFwBCY
+
+
+
+#[09:51, 05/05/2022] Jessica Lorena: pro-it_masterAdmin@gmail.com
+#[09:51, 05/05/2022] Jessica Lorena: @proIt
+#[09:51, 05/05/2022] Jessica Lorena: MasterAdmin
+#[09:51, 05/05/2022] Jessica Lorena: pro-it_admin@gmail.com   senha proItAdmin
+#[09:51, 05/05/2022] Jessica Lorena: Admin normal
+
+proit-consulting.com
